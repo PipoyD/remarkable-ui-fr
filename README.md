@@ -24,7 +24,8 @@ Aucun autre fichier n’est requis.
 
 ## 🛠️ Installation
 
-⚠️ La tablette doit impérativement rester allumée pendant toute la durée de la manipulation.
+> [!CAUTION]
+> La tablette doit impérativement rester allumée pendant toute la durée de la manipulation.
 
 ### 1️⃣ Activer le mode développeur
 
@@ -51,7 +52,8 @@ Dans PuTTY :
 Une fenêtre noire s’ouvre :
 - `login as:` **root**
 - `root@10.11.99.1's password:` **votre mot de passe**
-  - ⚠️ Le mot de passe **ne s’affiche pas pendant la saisie**, c’est normal
+> [!NOTE]
+> Le mot de passe **ne s’affiche pas pendant la saisie**, c’est normal
   
 Une fois connecté, vous êtes en **SSH sur la tablette**
 
@@ -60,9 +62,9 @@ Passer la tablette en écriture (read-only → read-write) :
 Par défaut, le système de la reMarkable est en **lecture seule**.  
 Pour remplacer le fichier de traduction, il faut remonter la partition système en écriture.
 
-- Copier :
-`mount -o remount,rw /`
-`mount -o remount,rw /usr`
+- Copier :\
+`mount -o remount,rw /`\
+`mount -o remount,rw /usr`\
 - Coller dans la fenêtre PuTTY (clique droit)
 
 Une fois ces commandes exécutées, le système n’est plus en lecture seule et les fichiers système peuvent être modifiés.
@@ -77,14 +79,16 @@ Dans WinSCP :
 - Numéro de port : **22**
 - Nom d'utilisateur : **root**
 - Mot de passe : **votre mot de passe**
-  - ⚠️ Il s'agit du même que pour PuTTY
+> [!NOTE]
+> Il s'agit du même que pour PuTTY
  
 Après la session lancé :
 - A gauche les dossiers de votre PC et à droite ceux de la tablette
 - Vous êtes dans **/home/root/**
 - Allez dans **/usr/share/remarkable/xochitl/translations/**
 - Remplacez le fichier `reMarkable_de.qm` original par **celui du dépôt**
-  - 💡 Astuce : ouvrez l’Explorateur de fichiers de votre PC et glissez-déposez simplement le fichier téléchargé dans la fenêtre WinSCP
+> [!TIP]
+>  ouvrez l’Explorateur de fichiers de votre PC et glissez-déposez simplement le fichier téléchargé dans la fenêtre WinSCP
 - Redémarrez votre tablette
 
 ### 4️⃣ Changer la langue
