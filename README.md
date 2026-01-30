@@ -90,7 +90,7 @@ Après la session lancé :
 - Allez dans **/usr/share/remarkable/xochitl/translations/**
 - Remplacez le fichier `reMarkable_de.qm` original par **celui du dépôt**
 > [!TIP]
->  ouvrez l’Explorateur de fichiers de votre PC et glissez-déposez simplement le fichier téléchargé dans la fenêtre WinSCP
+>  Ouvrez l’Explorateur de fichiers de votre PC et glissez-déposez simplement le fichier téléchargé dans la fenêtre WinSCP
 - Redémarrez votre tablette
 
 ### 4️⃣ Changer la langue
