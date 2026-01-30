@@ -61,8 +61,8 @@ Par défaut, le système de la reMarkable est en **lecture seule**.
 Pour remplacer le fichier de traduction, il faut remonter la partition système en écriture.
 
 - Copier :
-`   mount -o remount,rw /
-    mount -o remount,rw /usr`
+`mount -o remount,rw /`
+`mount -o remount,rw /usr`
 - Coller dans la fenêtre PuTTY (clique droit)
 
 Une fois ces commandes exécutées, le système n’est plus en lecture seule et les fichiers système peuvent être modifiés.
